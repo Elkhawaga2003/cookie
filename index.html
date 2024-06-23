@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cookies</title>
+</head>
+
+<body>
+    <h1 style="color:white;">Cookies in javascript</h1>
+    <form class="form">
+        <div class="content">
+            <input text="name" id="uname" placeholder="enter your name">
+            <input text="email" id="uemail" placeholder="Example@gmail.com">
+            <div class="backG">
+                <label for="bodys">changeBackground</label>
+                <select name="frame" id="bodys" onchange="check1()">
+                    <option value="noframe">noframe</option>
+                    <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                </select>
+            </div>
+        </div>
+        <div class="submited">
+            <input type="button" value="send" onclick="check2()"><br><br>
+            <input type="submit" value="getCookies" onclick="check3()">
+        </div>
+        <div class="msg"></div>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
